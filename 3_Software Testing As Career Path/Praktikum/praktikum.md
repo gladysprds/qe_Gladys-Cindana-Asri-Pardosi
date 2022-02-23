@@ -1,5 +1,5 @@
 ## Task section 3 Software Testing as career Path
-Asumsi : Tersedia hanya 2 ember yaitu ember 5Liter dan ember 3 Liter, cara mengisi ember 5 Liter dengan 4 Liter hanya dengan menggunakan 2 ember tersebut. Maka dilakukan pemisalan, X : ember 5 Liter dan Y : ember 3 Liter.
+Asumsi : Tersedia hanya 2 ember kosong yaitu ember 5 Liter dan ember 3 Liter, Lalu isi 2 ember tersebut sampai penuh sesuai kapasitas masing-masing. Namun, Bagaimana cara mengisi ember 5 Liter dengan 4 Liter hanya dengan menggunakan 2 jenis ember tersebut. Untuk melakukannya, Maka dibuat pemisalan, X : ember 5 Liter dan Y : ember 3 Liter.
 
 1. Buang seluruh air ember Y liter
 

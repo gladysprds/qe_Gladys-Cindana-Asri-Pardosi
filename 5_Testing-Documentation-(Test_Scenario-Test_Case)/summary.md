@@ -1,4 +1,5 @@
 Nama : Gladys Cindana Pardosi
+
 Kelas : QE_B 
 
 ## RESUME

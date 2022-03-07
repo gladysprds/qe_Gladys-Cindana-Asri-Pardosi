@@ -159,7 +159,7 @@ Milestone merupakan sebuah tolak ukur waktu yang harus tepati oleh tim mengenai 
 
 # E-COMMERCE Bhineka.com
 
-Selain Portal Berita Online dilakukan juga Pengujian terhadap E-commerce Bhineka.com. Terdapat 3 Halaman Pengujian dengan masing-masing sebanyak 3 Test Case. Terdapat 9 Test Case yang diuji, namun salah satunya terdapat Bug yang diindikasikan oleh berhasilnya user mengirimkan chat dengan nomor telepon yang salah dimana tidak ada pembatasan untuk digit/karakter nomor telepon. Sehingga Persentase uji website ini sebesar 89% dari 9 Test case, Berikut ini Test Run nya :
+Selain Portal Berita Online dilakukan juga Pengujian terhadap E-commerce Bhineka.com. Terdapat 3 Halaman Pengujian dengan masing-masing sebanyak 3 Test Case. Terdapat 9 Test Case yang diuji, namun salah satunya terdapat Bug yang diindikasikan oleh berhasilnya user mengirimkan chat dengan nomor telepon yang salah dimana tidak ada pembatasan untuk digit/karakter nomor telepon **[Halaman Chat]**. Sehingga Persentase uji website ini sebesar 89% dari 9 Test case, Berikut ini Test Run nya :
 
 
 ![TestRun-Bhineka](./Screenshot/Test-Case-Bhineka/Test-Run-Bhineka.PNG)
@@ -169,6 +169,41 @@ Selain Portal Berita Online dilakukan juga Pengujian terhadap E-commerce Bhineka
 
 
 ![TestRun-Bhineka](./Screenshot/Test-Case-Bhineka/Milestone.PNG)
+
+
+
+
+
+
+* **Halaman Riwayat-Belanja**
+
+
+
+![Halaman Riwayat Belanja](./Screenshot/Test-Case-Bhineka/Halaman-riwayat-Belanja.PNG)
+
+
+
+
+
+* **Halaman Keranjang**
+
+
+
+
+![Halaman Keranjang](./Screenshot/Test-Case-Bhineka/Halaman-keranjang.PNG)
+
+
+
+
+* **Halaman Chat**
+
+
+
+
+![Halaman Riwayat Belanja-1](./Screenshot/Test-Case-Bhineka/Chat.PNG)
+
+
+
 
 
 ## Test Case :

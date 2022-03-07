@@ -3,6 +3,26 @@
 ## BIG-TASK-01
 
 
+Terdapat 2 Epic pada Management Tools ini dimana Epic pertama adalah Portal Berita Online Detik.com dan Epik kedua adalah  E-commerce Bhineka.com. Berikut ini tampak 2 Epic, dimana Epic yang pertama menandakan bahwa sprint nya telah complete dan Epic Kedua menandakan bahwa sprint nya masih belum complete: 
+
+
+
+
+
+
+
+
+
+
+
+![Epic](./Screenshot/Epic.PNG)
+
+
+
+
+
+
+
 
 
 # PORTAL BERITA ONLINE DETIK.COM

@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Job Search","Success search job by title","SUCCESS","2022-03-22T17:13:58.5423247+07:00[Asia/Jakarta]","0.0","0.06"
+"Job Search","Success search job by city","SUCCESS","2022-03-22T17:13:58.6303529+07:00[Asia/Jakarta]","0.0","0.05"
+"Job Search","Success search job by city and title","SUCCESS","2022-03-22T17:13:58.7023637+07:00[Asia/Jakarta]","0.0","0.04"
+"Job Search","Success search job by history","SUCCESS","2022-03-22T17:13:58.7583781+07:00[Asia/Jakarta]","0.0","0.04"

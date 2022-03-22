@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Search" skipped="0" tests="3" time="0.12" timestamp="2022-03-22 05:13:58"><testcase name="Success Search a profile"/><testcase name="Success clear history"/><testcase name="Success display list of username that contains to our search"/></testsuite>

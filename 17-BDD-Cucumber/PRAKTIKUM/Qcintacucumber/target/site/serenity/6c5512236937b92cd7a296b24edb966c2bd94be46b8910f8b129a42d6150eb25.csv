@@ -1,2 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Login","Success login","SUCCESS","2022-03-22T17:13:56.7981722+07:00[Asia/Jakarta]","0.0","1.29"
+"Login","Success login","SUCCESS","2022-03-23T09:04:28.2322679+07:00[Asia/Jakarta]","0.0","1.29"
+"Login","Failed Login with null username and valid password","SUCCESS","2022-03-23T09:04:30.8974725+07:00[Asia/Jakarta]","0.0","1.33"

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="starter.cucumberTestSuite" time="22.261" tests="15" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="starter.cucumberTestSuite" time="47.789" tests="15" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ID"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin"/>
-    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Users\ASUS\AppData\Local\Temp\surefire15798301681311353887 2022-03-22T17-13-28_634-jvmRun1 surefire2915750579959461873tmp surefire_012943166352312336954tmp"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Users\ASUS\AppData\Local\Temp\surefire18127270063403059621 2022-03-23T09-04-03_774-jvmRun1 surefire17465802453036307413tmp surefire_09653643674228645041tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\PERKULIAHAN\Semester 6,Hebatt glad!\Altera\QE_Gladys-Cindana-Asri-Pardosi\17-BDD-Cucumber\PRAKTIKUM\Qcintacucumber\target\test-classes;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-core\3.2.1\serenity-core-3.2.1.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-model\3.2.1\serenity-model-3.2.1.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-text\1.9\commons-text-1.9.jar;C:\Users\ASUS\.m2\repository\commons-net\commons-net\3.8.0\commons-net-3.8.0.jar;C:\Users\ASUS\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\ASUS\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\ASUS\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ASUS\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\ASUS\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\ASUS\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\ASUS\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\ASUS\.m2\repository\com\google\inject\guice\5.1.0\guice-5.1.0.jar;C:\Users\ASUS\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\ASUS\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\ASUS\.m2\repository\org\jsoup\jsoup\1.14.3\jsoup-1.14.3.jar;C:\Users\ASUS\.m2\repository\com\thoughtworks\xstream\xstream\1.4.19\xstream-1.4.19.jar;C:\Users\ASUS\.m2\repository\io\github\x-stream\mxparser\1.2.2\mxparser-1.2.2.jar;C:\Users\ASUS\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;C:\Users\ASUS\.m2\repository\io\cucumber\cucumber-java\7.2.3\cucumber-java-7.2.3.jar;C:\Users\ASUS\.m2\repository\com\typesafe\config\1.4.2\config-1.4.2.jar;C:\Users\ASUS\.m2\repository\org\imgscalr\imgscalr-lib\4.2\imgscalr-lib-4.2.jar;C:\Users\ASUS\.m2\repository\org\awaitility\awaitility\4.2.0\awaitility-4.2.0.jar;C:\Users\ASUS\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\ASUS\.m2\repository\io\github\classgraph\classgraph\4.8.138\classgraph-4.8.138.jar;C:\Users\ASUS\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.12\jxl-2.6.12.jar;C:\Users\ASUS\.m2\repository\net\bytebuddy\byte-buddy\1.12.8\byte-buddy-1.12.8.jar;C:\Users\ASUS\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.8\byte-buddy-agent-1.12.8.jar;C:\Users\ASUS\.m2\repository\org\objenesis\objenesis\3.1\objenesis-3.1.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-report-resources\3.2.1\serenity-report-resources-3.2.1.jar;C:\Users\ASUS\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.2\jackson-core-2.13.2.jar;C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.2\jackson-databind-2.13.2.jar;C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.2\jackson-annotations-2.13.2.jar;C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\ASUS\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-java\4.1.2\selenium-java-4.1.2.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.1.2\selenium-devtools-v85-4.1.2.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v95\4.1.2\selenium-devtools-v95-4.1.2.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v96\4.1.2\selenium-devtools-v96-4.1.2.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v97\4.1.2\selenium-devtools-v97-4.1.2.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.1.2\selenium-firefox-xpi-driver-4.1.2.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.1.2\selenium-opera-driver-4.1.2.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.1.2\selenium-remote-driver-4.1.2.jar;C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-buffer\4.1.73.Final\netty-buffer-4.1.73.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-codec-http\4.1.73.Final\netty-codec-http-4.1.73.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-codec\4.1.73.Final\netty-codec-4.1.73.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-handler\4.1.73.Final\netty-handler-4.1.73.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-tcnative-classes\2.0.46.Final\netty-tcnative-classes-2.0.46.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-common\4.1.73.Final\netty-common-4.1.73.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.73.Final\netty-transport-classes-epoll-4.1.73.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.73.Final\netty-transport-classes-kqueue-4.1.73.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-transport-native-epoll\4.1.73.Final\netty-transport-native-epoll-4.1.73.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.73.Final\netty-transport-native-kqueue-4.1.73.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.73.Final\netty-transport-native-unix-common-4.1.73.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-transport\4.1.73.Final\netty-transport-4.1.73.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-resolver\4.1.73.Final\netty-resolver-4.1.73.Final.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-api\1.10.1\opentelemetry-api-1.10.1.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-context\1.10.1\opentelemetry-context-1.10.1.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.10.1\opentelemetry-exporter-logging-1.10.1.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.10.1-alpha\opentelemetry-sdk-metrics-1.10.1-alpha.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.10.1-alpha\opentelemetry-sdk-logs-1.10.1-alpha.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.10.1\opentelemetry-sdk-common-1.10.1.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.10.1\opentelemetry-sdk-extension-autoconfigure-spi-1.10.1.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.10.1-alpha\opentelemetry-sdk-extension-autoconfigure-1.10.1-alpha.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.10.1\opentelemetry-sdk-trace-1.10.1.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.10.1\opentelemetry-sdk-1.10.1.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.10.1-alpha\opentelemetry-semconv-1.10.1-alpha.jar;C:\Users\ASUS\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ASUS\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\ASUS\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\ASUS\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\ASUS\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-http\4.1.2\selenium-http-4.1.2.jar;C:\Users\ASUS\.m2\repository\net\jodah\failsafe\2.4.4\failsafe-2.4.4.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.1.2\selenium-safari-driver-4.1.2.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-api\4.1.2\selenium-api-4.1.2.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-support\4.1.2\selenium-support-4.1.2.jar;C:\Users\ASUS\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\ASUS\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\ASUS\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-json\4.1.2\selenium-json-4.1.2.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.1.2\selenium-chrome-driver-4.1.2.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.1.2\selenium-chromium-driver-4.1.2.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.1.2\selenium-firefox-driver-4.1.2.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.1.2\selenium-edge-driver-4.1.2.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.1.2\selenium-ie-driver-4.1.2.jar;C:\Users\ASUS\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\ASUS\.m2\repository\io\appium\java-client\8.0.0\java-client-8.0.0.jar;C:\Users\ASUS\.m2\repository\commons-validator\commons-validator\1.7\commons-validator-1.7.jar;C:\Users\ASUS\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar;C:\Users\ASUS\.m2\repository\org\aspectj\aspectjweaver\1.9.8\aspectjweaver-1.9.8.jar;C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy\3.0.10\groovy-3.0.10.jar;C:\Users\ASUS\.m2\repository\net\sf\opencsv\opencsv\2.0\opencsv-2.0.jar;C:\Users\ASUS\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\ASUS\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\ASUS\.m2\repository\org\fluentlenium\fluentlenium-core\0.10.2\fluentlenium-core-0.10.2.jar;C:\Users\ASUS\.m2\repository\io\github\bonigarcia\webdrivermanager\5.1.0\webdrivermanager-5.1.0.jar;C:\Users\ASUS\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\ASUS\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\ASUS\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\ASUS\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\ASUS\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\ASUS\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\ASUS\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\ASUS\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\ASUS\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\ASUS\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\ASUS\.m2\repository\com\jhlabs\filters\2.0.235\filters-2.0.235.jar;C:\Users\ASUS\.m2\repository\com\paulhammant\ngwebdriver\1.1.6\ngwebdriver-1.1.6.jar;C:\Users\ASUS\.m2\repository\joda-time\joda-time\2.8.2\joda-time-2.8.2.jar;C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\ASUS\.m2\repository\com\google\jimfs\jimfs\1.2\jimfs-1.2.jar;C:\Users\ASUS\.m2\repository\org\mockito\mockito-core\3.3.3\mockito-core-3.3.3.jar;C:\Users\ASUS\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\ASUS\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\ASUS\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar;C:\Users\ASUS\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\ASUS\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\ASUS\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\ASUS\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-cucumber\3.2.1\serenity-cucumber-3.2.1.jar;C:\Users\ASUS\.m2\repository\io\cucumber\cucumber-core\7.2.3\cucumber-core-7.2.3.jar;C:\Users\ASUS\.m2\repository\io\cucumber\cucumber-gherkin\7.2.3\cucumber-gherkin-7.2.3.jar;C:\Users\ASUS\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.2.3\cucumber-gherkin-messages-7.2.3.jar;C:\Users\ASUS\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\ASUS\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\ASUS\.m2\repository\io\cucumber\cucumber-expressions\15.0.1\cucumber-expressions-15.0.1.jar;C:\Users\ASUS\.m2\repository\io\cucumber\datatable\7.2.3\datatable-7.2.3.jar;C:\Users\ASUS\.m2\repository\io\cucumber\cucumber-plugin\7.2.3\cucumber-plugin-7.2.3.jar;C:\Users\ASUS\.m2\repository\io\cucumber\docstring\7.2.3\docstring-7.2.3.jar;C:\Users\ASUS\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\ASUS\.m2\repository\io\cucumber\ci-environment\8.1.0\ci-environment-8.1.0.jar;C:\Users\ASUS\.m2\repository\io\cucumber\cucumber-junit\7.2.3\cucumber-junit-7.2.3.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-csv\1.5\commons-csv-1.5.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-screenplay\3.2.1\serenity-screenplay-3.2.1.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-screenplay-webdriver\3.2.1\serenity-screenplay-webdriver-3.2.1.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-ensure\3.2.1\serenity-ensure-3.2.1.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-junit\3.2.1\serenity-junit-3.2.1.jar;C:\Users\ASUS\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.6.0\kotlin-stdlib-1.6.0.jar;C:\Users\ASUS\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\ASUS\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.6.0\kotlin-stdlib-common-1.6.0.jar;C:\Users\ASUS\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.1\junit-platform-launcher-1.8.1.jar;C:\Users\ASUS\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;C:\Users\ASUS\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ASUS\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\ASUS\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ASUS\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\ASUS\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\ASUS\.m2\repository\org\junit\vintage\junit-vintage-engine\5.8.2\junit-vintage-engine-5.8.2.jar;C:\Users\ASUS\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ASUS\.m2\repository\ch\qos\logback\logback-classic\1.2.10\logback-classic-1.2.10.jar;C:\Users\ASUS\.m2\repository\ch\qos\logback\logback-core\1.2.10\logback-core-1.2.10.jar;C:\Users\ASUS\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\ASUS\.m2\repository\org\assertj\assertj-core\3.6.2\assertj-core-3.6.2.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-reports\3.2.1\serenity-reports-3.2.1.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-stats\3.2.1\serenity-stats-3.2.1.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-reports-configuration\3.2.1\serenity-reports-configuration-3.2.1.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-all\0.34.30\flexmark-all-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark\0.34.30\flexmark-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-abbreviation\0.34.30\flexmark-ext-abbreviation-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-admonition\0.34.30\flexmark-ext-admonition-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-anchorlink\0.34.30\flexmark-ext-anchorlink-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-aside\0.34.30\flexmark-ext-aside-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-attributes\0.34.30\flexmark-ext-attributes-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-autolink\0.34.30\flexmark-ext-autolink-0.34.30.jar;C:\Users\ASUS\.m2\repository\org\nibor\autolink\autolink\0.6.0\autolink-0.6.0.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-definition\0.34.30\flexmark-ext-definition-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-emoji\0.34.30\flexmark-ext-emoji-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-enumerated-reference\0.34.30\flexmark-ext-enumerated-reference-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-escaped-character\0.34.30\flexmark-ext-escaped-character-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-footnotes\0.34.30\flexmark-ext-footnotes-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-issues\0.34.30\flexmark-ext-gfm-issues-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-strikethrough\0.34.30\flexmark-ext-gfm-strikethrough-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tables\0.34.30\flexmark-ext-gfm-tables-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tasklist\0.34.30\flexmark-ext-gfm-tasklist-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-users\0.34.30\flexmark-ext-gfm-users-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-gitlab\0.34.30\flexmark-ext-gitlab-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-front-matter\0.34.30\flexmark-ext-jekyll-front-matter-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-tag\0.34.30\flexmark-ext-jekyll-tag-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-media-tags\0.34.30\flexmark-ext-media-tags-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-test-util\0.34.30\flexmark-test-util-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-ins\0.34.30\flexmark-ext-ins-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-xwiki-macros\0.34.30\flexmark-ext-xwiki-macros-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-superscript\0.34.30\flexmark-ext-superscript-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-tables\0.34.30\flexmark-ext-tables-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-toc\0.34.30\flexmark-ext-toc-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-typographic\0.34.30\flexmark-ext-typographic-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-wikilink\0.34.30\flexmark-ext-wikilink-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-yaml-front-matter\0.34.30\flexmark-ext-yaml-front-matter-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-youtube-embedded\0.34.30\flexmark-ext-youtube-embedded-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-formatter\0.34.30\flexmark-formatter-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-html-parser\0.34.30\flexmark-html-parser-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-jira-converter\0.34.30\flexmark-jira-converter-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-pdf-converter\0.34.30\flexmark-pdf-converter-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\openhtmltopdf\openhtmltopdf-core\0.0.1-RC13\openhtmltopdf-core-0.0.1-RC13.jar;C:\Users\ASUS\.m2\repository\com\openhtmltopdf\openhtmltopdf-pdfbox\0.0.1-RC13\openhtmltopdf-pdfbox-0.0.1-RC13.jar;C:\Users\ASUS\.m2\repository\org\apache\pdfbox\pdfbox\2.0.8\pdfbox-2.0.8.jar;C:\Users\ASUS\.m2\repository\org\apache\pdfbox\fontbox\2.0.8\fontbox-2.0.8.jar;C:\Users\ASUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ASUS\.m2\repository\org\apache\pdfbox\xmpbox\2.0.8\xmpbox-2.0.8.jar;C:\Users\ASUS\.m2\repository\de\rototor\pdfbox\graphics2d\0.12\graphics2d-0.12.jar;C:\Users\ASUS\.m2\repository\com\openhtmltopdf\openhtmltopdf-rtl-support\0.0.1-RC13\openhtmltopdf-rtl-support-0.0.1-RC13.jar;C:\Users\ASUS\.m2\repository\com\ibm\icu\icu4j\59.1\icu4j-59.1.jar;C:\Users\ASUS\.m2\repository\com\openhtmltopdf\openhtmltopdf-jsoup-dom-converter\0.0.1-RC13\openhtmltopdf-jsoup-dom-converter-0.0.1-RC13.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-profile-pegdown\0.34.30\flexmark-profile-pegdown-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-util\0.34.30\flexmark-util-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-youtrack-converter\0.34.30\flexmark-youtrack-converter-0.34.30.jar;C:\Users\ASUS\.m2\repository\es\nitaur\markdown\txtmark\0.16\txtmark-0.16.jar;C:\Users\ASUS\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.0.0-M5\maven-surefire-plugin-3.0.0-M5.jar;C:\Users\ASUS\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.0.0-M5\maven-surefire-common-3.0.0-M5.jar;C:\Users\ASUS\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0-M5\surefire-api-3.0.0-M5.jar;C:\Users\ASUS\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0-M5\surefire-logger-api-3.0.0-M5.jar;C:\Users\ASUS\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.0.0-M5\surefire-extensions-api-3.0.0-M5.jar;C:\Users\ASUS\.m2\repository\org\apache\maven\surefire\surefire-booter\3.0.0-M5\surefire-booter-3.0.0-M5.jar;C:\Users\ASUS\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.0.0-M5\surefire-extensions-spi-3.0.0-M5.jar;C:\Users\ASUS\.m2\repository\org\apache\maven\maven-toolchain\3.0-alpha-2\maven-toolchain-3.0-alpha-2.jar;C:\Users\ASUS\.m2\repository\org\apache\maven\shared\maven-artifact-transfer\0.11.0\maven-artifact-transfer-0.11.0.jar;C:\Users\ASUS\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.0.1\maven-common-artifact-filters-3.0.1.jar;C:\Users\ASUS\.m2\repository\org\apache\maven\maven-model\3.0\maven-model-3.0.jar;C:\Users\ASUS\.m2\repository\org\apache\maven\maven-plugin-api\3.0\maven-plugin-api-3.0.jar;C:\Users\ASUS\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar;C:\Users\ASUS\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.3\plexus-classworlds-2.2.3.jar;C:\Users\ASUS\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar;C:\Users\ASUS\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar;C:\Users\ASUS\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.1.0\maven-shared-utils-3.1.0.jar;C:\Users\ASUS\.m2\repository\org\codehaus\plexus\plexus-java\1.0.5\plexus-java-1.0.5.jar;C:\Users\ASUS\.m2\repository\org\ow2\asm\asm\7.2\asm-7.2.jar;C:\Users\ASUS\.m2\repository\com\thoughtworks\qdox\qdox\2.0-M9\qdox-2.0-M9.jar;C:\Users\ASUS\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.0.0-M4\surefire-shared-utils-3.0.0-M4.jar;C:\Users\ASUS\.m2\repository\org\apache\maven\plugins\maven-failsafe-plugin\3.0.0-M5\maven-failsafe-plugin-3.0.0-M5.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -57,9 +57,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="Success login" classname="Login" time="3.218">
-    <system-out><![CDATA[17:13:53.568 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/QE_Gladys-Cindana-Asri-Pardosi/17-BDD-Cucumber/PRAKTIKUM/Qcintacucumber/src/test/resources/features/account/login.feature
-17:13:54.553 [main] INFO  - 
+  <testcase name="Success login" classname="Login" time="2.223">
+    <system-out><![CDATA[09:04:26.704 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/QE_Gladys-Cindana-Asri-Pardosi/17-BDD-Cucumber/PRAKTIKUM/Qcintacucumber/src/test/resources/features/account/login.feature
+09:04:27.215 [main] INFO  - 
 
 -------------------------------------------------------------------------------------
      _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
@@ -75,24 +75,24 @@
  Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
 -------------------------------------------------------------------------------------
 
-17:13:54.553 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@aacbac6
-17:13:54.561 [main] INFO  - Test Suite Started: Login
-17:13:54.817 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/QE_Gladys-Cindana-Asri-Pardosi/17-BDD-Cucumber/PRAKTIKUM/Qcintacucumber/src/test/resources/features/job/jobSearch.feature
-17:13:54.833 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@d0c8ad43
-17:13:54.833 [main] INFO  - Test Suite Started: Job Search
-17:13:54.833 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/QE_Gladys-Cindana-Asri-Pardosi/17-BDD-Cucumber/PRAKTIKUM/Qcintacucumber/src/test/resources/features/people/mynetwork.feature
-17:13:54.841 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@a1680f1d
-17:13:54.841 [main] INFO  - Test Suite Started: My network
-17:13:54.841 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/QE_Gladys-Cindana-Asri-Pardosi/17-BDD-Cucumber/PRAKTIKUM/Qcintacucumber/src/test/resources/features/people/search.feature
-17:13:54.857 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@fa101788
-17:13:54.857 [main] INFO  - Test Suite Started: Search
-17:13:54.857 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/QE_Gladys-Cindana-Asri-Pardosi/17-BDD-Cucumber/PRAKTIKUM/Qcintacucumber/src/test/resources/features/account/login.feature
-17:13:54.865 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@aacbac6
-17:13:54.865 [main] INFO  - Test Suite Started: Login
+09:04:27.222 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@aacbac6
+09:04:27.235 [main] INFO  - Test Suite Started: Login
+09:04:27.291 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/QE_Gladys-Cindana-Asri-Pardosi/17-BDD-Cucumber/PRAKTIKUM/Qcintacucumber/src/test/resources/features/job/jobSearch.feature
+09:04:27.302 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@d0c8ad43
+09:04:27.303 [main] INFO  - Test Suite Started: Job Search
+09:04:27.304 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/QE_Gladys-Cindana-Asri-Pardosi/17-BDD-Cucumber/PRAKTIKUM/Qcintacucumber/src/test/resources/features/people/mynetwork.feature
+09:04:27.314 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@a1680f1d
+09:04:27.316 [main] INFO  - Test Suite Started: My network
+09:04:27.316 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/QE_Gladys-Cindana-Asri-Pardosi/17-BDD-Cucumber/PRAKTIKUM/Qcintacucumber/src/test/resources/features/people/search.feature
+09:04:27.326 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@fa101788
+09:04:27.327 [main] INFO  - Test Suite Started: Search
+09:04:27.328 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/QE_Gladys-Cindana-Asri-Pardosi/17-BDD-Cucumber/PRAKTIKUM/Qcintacucumber/src/test/resources/features/account/login.feature
+09:04:27.335 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@aacbac6
+09:04:27.336 [main] INFO  - Test Suite Started: Login
 
 Scenario: Success login                          &amp#27;[90m# src/test/resources/features/account/login.feature:6&amp#27;[0m
-17:13:55.307 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/QE_Gladys-Cindana-Asri-Pardosi/17-BDD-Cucumber/PRAKTIKUM/Qcintacucumber/src/test/resources/features/account/login.feature
-17:13:56.798 [main] INFO  - 
+09:04:27.699 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/QE_Gladys-Cindana-Asri-Pardosi/17-BDD-Cucumber/PRAKTIKUM/Qcintacucumber/src/test/resources/features/account/login.feature
+09:04:28.231 [main] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
@@ -109,7 +109,7 @@ click login button
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick login button&amp#27;[0m                         &amp#27;[90m# starter.account.loginStep.click_login_button()&amp#27;[0m
 I am in homepage
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI go to homepage&amp#27;[0m                          &amp#27;[90m# starter.account.loginStep.i_go_to_homepage()&amp#27;[0m
-17:13:58.075 [main] INFO  - 
+09:04:29.519 [main] INFO  - 
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
@@ -119,11 +119,11 @@ Success login
 ----------------------------------------------------------------------
 ]]></system-out>
   </testcase>
-  <testcase name="Failed Login with null username and valid password" classname="Login" time="0.099">
+  <testcase name="Failed Login with null username and valid password" classname="Login" time="2.689">
     <system-out><![CDATA[
 Scenario: Failed Login with null username and valid password &amp#27;[90m# src/test/resources/features/account/login.feature:12&amp#27;[0m
-17:13:58.119 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/QE_Gladys-Cindana-Asri-Pardosi/17-BDD-Cucumber/PRAKTIKUM/Qcintacucumber/src/test/resources/features/account/login.feature
-17:13:58.138 [main] INFO  - 
+09:04:30.875 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/QE_Gladys-Cindana-Asri-Pardosi/17-BDD-Cucumber/PRAKTIKUM/Qcintacucumber/src/test/resources/features/account/login.feature
+09:04:30.895 [main] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
@@ -139,7 +139,7 @@ click login button
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick login button&amp#27;[0m                                     &amp#27;[90m# starter.account.loginStep.click_login_button()&amp#27;[0m
 Masukkan alamat email atau nomor telepon Anda
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI will get error message null username&amp#27;[0m                &amp#27;[90m# starter.account.loginStep.iWillGetErrorMessageNullUsername()&amp#27;[0m
-17:13:58.190 [main] INFO  - 
+09:04:32.223 [main] INFO  - 
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
@@ -149,11 +149,11 @@ Failed Login with null username and valid password
 ----------------------------------------------------------------------
 ]]></system-out>
   </testcase>
-  <testcase name="Failed Login with valid username and null password" classname="Login" time="0.088">
+  <testcase name="Failed Login with valid username and null password" classname="Login" time="1.431">
     <system-out><![CDATA[
 Scenario: Failed Login with valid username and null password &amp#27;[90m# src/test/resources/features/account/login.feature:18&amp#27;[0m
-17:13:58.214 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/QE_Gladys-Cindana-Asri-Pardosi/17-BDD-Cucumber/PRAKTIKUM/Qcintacucumber/src/test/resources/features/account/login.feature
-17:13:58.222 [main] INFO  - 
+09:04:33.011 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/QE_Gladys-Cindana-Asri-Pardosi/17-BDD-Cucumber/PRAKTIKUM/Qcintacucumber/src/test/resources/features/account/login.feature
+09:04:33.785 [main] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
@@ -169,7 +169,7 @@ click login button
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick login button&amp#27;[0m                                     &amp#27;[90m# starter.account.loginStep.click_login_button()&amp#27;[0m
 Masukkan password anda
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI will get error message null password&amp#27;[0m                &amp#27;[90m# starter.account.loginStep.iWillGetErrorMessageNullPassword()&amp#27;[0m
-17:13:58.278 [main] INFO  - 
+09:04:33.846 [main] INFO  - 
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
@@ -179,11 +179,11 @@ Failed Login with valid username and null password
 ----------------------------------------------------------------------
 ]]></system-out>
   </testcase>
-  <testcase name="Failed Login with valid username and invalid password" classname="Login" time="0.08">
+  <testcase name="Failed Login with valid username and invalid password" classname="Login" time="0.159">
     <system-out><![CDATA[
 Scenario: Failed Login with valid username and invalid password &amp#27;[90m# src/test/resources/features/account/login.feature:24&amp#27;[0m
-17:13:58.302 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/QE_Gladys-Cindana-Asri-Pardosi/17-BDD-Cucumber/PRAKTIKUM/Qcintacucumber/src/test/resources/features/account/login.feature
-17:13:58.318 [main] INFO  - 
+09:04:33.927 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/QE_Gladys-Cindana-Asri-Pardosi/17-BDD-Cucumber/PRAKTIKUM/Qcintacucumber/src/test/resources/features/account/login.feature
+09:04:33.932 [main] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
@@ -199,7 +199,7 @@ click login button
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick login button&amp#27;[0m                                        &amp#27;[90m# starter.account.loginStep.click_login_button()&amp#27;[0m
 Kata sandi yang Anda masukkan salah. Coba lagi 
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI will get error message invalid password&amp#27;[0m                &amp#27;[90m# starter.account.loginStep.iWillGetErrorMessageInvalidPassword()&amp#27;[0m
-17:13:58.366 [main] INFO  - 
+09:04:34.009 [main] INFO  - 
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
@@ -209,11 +209,11 @@ Failed Login with valid username and invalid password
 ----------------------------------------------------------------------
 ]]></system-out>
   </testcase>
-  <testcase name="Failed Login with invalid username and valid password" classname="Login" time="0.08">
+  <testcase name="Failed Login with invalid username and valid password" classname="Login" time="0.103">
     <system-out><![CDATA[
 Scenario: Failed Login with invalid username and valid password &amp#27;[90m# src/test/resources/features/account/login.feature:30&amp#27;[0m
-17:13:58.382 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/QE_Gladys-Cindana-Asri-Pardosi/17-BDD-Cucumber/PRAKTIKUM/Qcintacucumber/src/test/resources/features/account/login.feature
-17:13:58.390 [main] INFO  - 
+09:04:34.038 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/QE_Gladys-Cindana-Asri-Pardosi/17-BDD-Cucumber/PRAKTIKUM/Qcintacucumber/src/test/resources/features/account/login.feature
+09:04:34.045 [main] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
@@ -229,7 +229,7 @@ click login button
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick login button&amp#27;[0m                                        &amp#27;[90m# starter.account.loginStep.click_login_button()&amp#27;[0m
 Tidak dapat menemukan akun LinkedIn yang dikaitkan dengan alamat email ini. Silakan coba lagi. 
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI will get error message invalid username&amp#27;[0m                &amp#27;[90m# starter.account.loginStep.iWillGetErrorMessageInvalidUsername()&amp#27;[0m
-17:13:58.438 [main] INFO  - 
+09:04:34.111 [main] INFO  - 
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
@@ -239,11 +239,11 @@ Failed Login with invalid username and valid password
 ----------------------------------------------------------------------
 ]]></system-out>
   </testcase>
-  <testcase name="Failed Login with invalid username and invalid password" classname="Login" time="0.064">
+  <testcase name="Failed Login with invalid username and invalid password" classname="Login" time="0.15">
     <system-out><![CDATA[
 Scenario: Failed Login with invalid username and invalid password     &amp#27;[90m# src/test/resources/features/account/login.feature:36&amp#27;[0m
-17:13:58.462 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/QE_Gladys-Cindana-Asri-Pardosi/17-BDD-Cucumber/PRAKTIKUM/Qcintacucumber/src/test/resources/features/account/login.feature
-17:13:58.462 [main] INFO  - 
+09:04:34.144 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/QE_Gladys-Cindana-Asri-Pardosi/17-BDD-Cucumber/PRAKTIKUM/Qcintacucumber/src/test/resources/features/account/login.feature
+09:04:34.153 [main] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
@@ -259,7 +259,7 @@ click login button
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick login button&amp#27;[0m                                              &amp#27;[90m# starter.account.loginStep.click_login_button()&amp#27;[0m
 Tidak dapat menemukan akun LinkedIn yang dikaitkan dengan alamat email ini. Silakan coba lagi.
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI will get error message invalid username and invalid password&amp#27;[0m &amp#27;[90m# starter.account.loginStep.iWillGetErrorMessageInvalidUsernameAndInvalidPassword()&amp#27;[0m
-17:13:58.510 [main] INFO  - 
+09:04:34.265 [main] INFO  - 
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
@@ -269,14 +269,14 @@ Failed Login with invalid username and invalid password
 ----------------------------------------------------------------------
 ]]></system-out>
   </testcase>
-  <testcase name="Success search job by title" classname="Job Search" time="0.072">
-    <system-out><![CDATA[17:13:58.510 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/QE_Gladys-Cindana-Asri-Pardosi/17-BDD-Cucumber/PRAKTIKUM/Qcintacucumber/src/test/resources/features/job/jobSearch.feature
-17:13:58.518 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@d0c8ad43
-17:13:58.518 [main] INFO  - Test Suite Started: Job Search
+  <testcase name="Success search job by title" classname="Job Search" time="0.091">
+    <system-out><![CDATA[09:04:34.269 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/QE_Gladys-Cindana-Asri-Pardosi/17-BDD-Cucumber/PRAKTIKUM/Qcintacucumber/src/test/resources/features/job/jobSearch.feature
+09:04:34.275 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@d0c8ad43
+09:04:34.276 [main] INFO  - Test Suite Started: Job Search
 
 Scenario: Success search job by title                    &amp#27;[90m# src/test/resources/features/job/jobSearch.feature:6&amp#27;[0m
-17:13:58.534 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/QE_Gladys-Cindana-Asri-Pardosi/17-BDD-Cucumber/PRAKTIKUM/Qcintacucumber/src/test/resources/features/job/jobSearch.feature
-17:13:58.542 [main] INFO  - 
+09:04:34.303 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/QE_Gladys-Cindana-Asri-Pardosi/17-BDD-Cucumber/PRAKTIKUM/Qcintacucumber/src/test/resources/features/job/jobSearch.feature
+09:04:34.309 [main] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
@@ -292,7 +292,7 @@ click job
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick the job on button search&amp#27;[0m                     &amp#27;[90m# starter.job.jobStep.clickTheJobOnButtonSearch()&amp#27;[0m
 get list of job
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mi can see list of job based on title that i input&amp#27;[0m &amp#27;[90m# starter.job.jobStep.iCanSeeListOfJobBasedOnTitleThatIInput()&amp#27;[0m
-17:13:58.598 [main] INFO  - 
+09:04:34.368 [main] INFO  - 
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
@@ -302,11 +302,11 @@ Success search job by title
 ----------------------------------------------------------------------
 ]]></system-out>
   </testcase>
-  <testcase name="Success search job by city" classname="Job Search" time="0.072">
+  <testcase name="Success search job by city" classname="Job Search" time="0.074">
     <system-out><![CDATA[
 Scenario: Success search job by city                      &amp#27;[90m# src/test/resources/features/job/jobSearch.feature:12&amp#27;[0m
-17:13:58.630 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/QE_Gladys-Cindana-Asri-Pardosi/17-BDD-Cucumber/PRAKTIKUM/Qcintacucumber/src/test/resources/features/job/jobSearch.feature
-17:13:58.630 [main] INFO  - 
+09:04:34.388 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/QE_Gladys-Cindana-Asri-Pardosi/17-BDD-Cucumber/PRAKTIKUM/Qcintacucumber/src/test/resources/features/job/jobSearch.feature
+09:04:34.395 [main] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
@@ -322,7 +322,7 @@ click city that i input
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick the city on button search&amp#27;[0m                     &amp#27;[90m# starter.job.jobStep.clickTheCityOnButtonSearch()&amp#27;[0m
 get list of job that i input
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mi can see list of job based on city that i input&amp#27;[0m   &amp#27;[90m# starter.job.jobStep.iCanSeeListOfJobBasedOnCityThatIInput()&amp#27;[0m
-17:13:58.678 [main] INFO  - 
+09:04:34.444 [main] INFO  - 
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
@@ -332,11 +332,11 @@ Success search job by city
 ----------------------------------------------------------------------
 ]]></system-out>
   </testcase>
-  <testcase name="Success search job by city and title" classname="Job Search" time="0.064">
+  <testcase name="Success search job by city and title" classname="Job Search" time="0.137">
     <system-out><![CDATA[
 Scenario: Success search job by city and title                               &amp#27;[90m# src/test/resources/features/job/jobSearch.feature:18&amp#27;[0m
-17:13:58.694 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/QE_Gladys-Cindana-Asri-Pardosi/17-BDD-Cucumber/PRAKTIKUM/Qcintacucumber/src/test/resources/features/job/jobSearch.feature
-17:13:58.702 [main] INFO  - 
+09:04:34.473 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/QE_Gladys-Cindana-Asri-Pardosi/17-BDD-Cucumber/PRAKTIKUM/Qcintacucumber/src/test/resources/features/job/jobSearch.feature
+09:04:34.478 [main] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
@@ -352,7 +352,7 @@ tap enter
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mtab enter&amp#27;[0m                                                              &amp#27;[90m# starter.job.jobStep.tabEnter()&amp#27;[0m
 get list job based on the title and city that i want
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI can see the list of job based on job city and job title that i want&amp#27;[0m &amp#27;[90m# starter.job.jobStep.iCanSeeTheListOfJobBasedOnJobCityAndJobTitleThatIWant()&amp#27;[0m
-17:13:58.742 [main] INFO  - 
+09:04:34.580 [main] INFO  - 
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
@@ -362,11 +362,11 @@ Success search job by city and title
 ----------------------------------------------------------------------
 ]]></system-out>
   </testcase>
-  <testcase name="Success search job by history" classname="Job Search" time="0.056">
+  <testcase name="Success search job by history" classname="Job Search" time="0.061">
     <system-out><![CDATA[
 Scenario: Success search job by history                             &amp#27;[90m# src/test/resources/features/job/jobSearch.feature:24&amp#27;[0m
-17:13:58.758 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/QE_Gladys-Cindana-Asri-Pardosi/17-BDD-Cucumber/PRAKTIKUM/Qcintacucumber/src/test/resources/features/job/jobSearch.feature
-17:13:58.758 [main] INFO  - 
+09:04:34.605 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/QE_Gladys-Cindana-Asri-Pardosi/17-BDD-Cucumber/PRAKTIKUM/Qcintacucumber/src/test/resources/features/job/jobSearch.feature
+09:04:34.611 [main] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
@@ -380,7 +380,7 @@ click job in tab history
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI click the job which in history tab&amp#27;[0m                         &amp#27;[90m# starter.job.jobStep.iClickTheJobWhichInHistoryTab()&amp#27;[0m
 get list of job based on the history that i choose
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI can see the list of job based on the history that i choose&amp#27;[0m &amp#27;[90m# starter.job.jobStep.iCanSeeTheListOfJobBasedOnTheHistoryThatIChoose()&amp#27;[0m
-17:13:58.798 [main] INFO  - 
+09:04:34.644 [main] INFO  - 
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
@@ -390,14 +390,14 @@ Success search job by history
 ----------------------------------------------------------------------
 ]]></system-out>
   </testcase>
-  <testcase name="see account profile that just connected with me" classname="My network" time="0.064">
-    <system-out><![CDATA[17:13:58.798 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/QE_Gladys-Cindana-Asri-Pardosi/17-BDD-Cucumber/PRAKTIKUM/Qcintacucumber/src/test/resources/features/people/mynetwork.feature
-17:13:58.806 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@a1680f1d
-17:13:58.806 [main] INFO  - Test Suite Started: My network
+  <testcase name="see account profile that just connected with me" classname="My network" time="0.056">
+    <system-out><![CDATA[09:04:34.647 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/QE_Gladys-Cindana-Asri-Pardosi/17-BDD-Cucumber/PRAKTIKUM/Qcintacucumber/src/test/resources/features/people/mynetwork.feature
+09:04:34.654 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@a1680f1d
+09:04:34.655 [main] INFO  - Test Suite Started: My network
 
 Scenario: see account profile that just connected with me     &amp#27;[90m# src/test/resources/features/people/mynetwork.feature:6&amp#27;[0m
-17:13:58.822 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/QE_Gladys-Cindana-Asri-Pardosi/17-BDD-Cucumber/PRAKTIKUM/Qcintacucumber/src/test/resources/features/people/mynetwork.feature
-17:13:58.822 [main] INFO  - 
+09:04:34.668 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/QE_Gladys-Cindana-Asri-Pardosi/17-BDD-Cucumber/PRAKTIKUM/Qcintacucumber/src/test/resources/features/people/mynetwork.feature
+09:04:34.672 [main] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
@@ -413,7 +413,7 @@ click profile
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click the account profile that just connected with me&amp#27;[0m &amp#27;[90m# starter.people.networkStep.iClickTheAccountProfileThatJustConnectedWithMe()&amp#27;[0m
 see detail profile
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI see the account profile that just connected with me&amp#27;[0m  &amp#27;[90m# starter.people.networkStep.iSeeTheAccountProfileThatJustConnectedWithMe()&amp#27;[0m
-17:13:58.862 [main] INFO  - 
+09:04:34.709 [main] INFO  - 
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
@@ -423,11 +423,11 @@ see account profile that just connected with me
 ----------------------------------------------------------------------
 ]]></system-out>
   </testcase>
-  <testcase name="see account that i ignored" classname="My network" time="0.064">
+  <testcase name="see account that i ignored" classname="My network" time="0.069">
     <system-out><![CDATA[
 Scenario: see account that i ignored                      &amp#27;[90m# src/test/resources/features/people/mynetwork.feature:12&amp#27;[0m
-17:13:58.886 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/QE_Gladys-Cindana-Asri-Pardosi/17-BDD-Cucumber/PRAKTIKUM/Qcintacucumber/src/test/resources/features/people/mynetwork.feature
-17:13:58.886 [main] INFO  - 
+09:04:34.725 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/QE_Gladys-Cindana-Asri-Pardosi/17-BDD-Cucumber/PRAKTIKUM/Qcintacucumber/src/test/resources/features/people/mynetwork.feature
+09:04:34.730 [main] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
@@ -443,7 +443,7 @@ click profile
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click the account profile that just ignored by me&amp#27;[0m &amp#27;[90m# starter.people.networkStep.iClickTheAccountProfileThatJustIgnoredByMe()&amp#27;[0m
 see detail profile
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mi see the account profile that just ignored by me&amp#27;[0m  &amp#27;[90m# starter.people.networkStep.iSeeTheAccountProfileThatJustIgnoredByMe()&amp#27;[0m
-17:13:58.934 [main] INFO  - 
+09:04:34.779 [main] INFO  - 
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
@@ -453,14 +453,14 @@ see account that i ignored
 ----------------------------------------------------------------------
 ]]></system-out>
   </testcase>
-  <testcase name="Success Search a profile" classname="Search" time="0.048">
-    <system-out><![CDATA[17:13:58.934 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/QE_Gladys-Cindana-Asri-Pardosi/17-BDD-Cucumber/PRAKTIKUM/Qcintacucumber/src/test/resources/features/people/search.feature
-17:13:58.942 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@fa101788
-17:13:58.942 [main] INFO  - Test Suite Started: Search
+  <testcase name="Success Search a profile" classname="Search" time="0.15">
+    <system-out><![CDATA[09:04:34.782 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/QE_Gladys-Cindana-Asri-Pardosi/17-BDD-Cucumber/PRAKTIKUM/Qcintacucumber/src/test/resources/features/people/search.feature
+09:04:34.788 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@fa101788
+09:04:34.789 [main] INFO  - Test Suite Started: Search
 
 Scenario: Success Search a profile      &amp#27;[90m# src/test/resources/features/people/search.feature:6&amp#27;[0m
-17:13:58.958 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/QE_Gladys-Cindana-Asri-Pardosi/17-BDD-Cucumber/PRAKTIKUM/Qcintacucumber/src/test/resources/features/people/search.feature
-17:13:58.966 [main] INFO  - 
+09:04:34.890 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/QE_Gladys-Cindana-Asri-Pardosi/17-BDD-Cucumber/PRAKTIKUM/Qcintacucumber/src/test/resources/features/people/search.feature
+09:04:34.895 [main] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
@@ -476,7 +476,7 @@ click username
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick username that i want to see&amp#27;[0m &amp#27;[90m# starter.people.searchStep.clickUsernameThatIWantToSee()&amp#27;[0m
 I see the profile
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI see the profile&amp#27;[0m                &amp#27;[90m# starter.people.searchStep.iSeeTheProfile()&amp#27;[0m
-17:13:58.998 [main] INFO  - 
+09:04:34.938 [main] INFO  - 
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
@@ -486,11 +486,11 @@ Success Search a profile
 ----------------------------------------------------------------------
 ]]></system-out>
   </testcase>
-  <testcase name="Success clear history" classname="Search" time="0.056">
+  <testcase name="Success clear history" classname="Search" time="0.059">
     <system-out><![CDATA[
 Scenario: Success clear history                      &amp#27;[90m# src/test/resources/features/people/search.feature:12&amp#27;[0m
-17:13:59.014 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/QE_Gladys-Cindana-Asri-Pardosi/17-BDD-Cucumber/PRAKTIKUM/Qcintacucumber/src/test/resources/features/people/search.feature
-17:13:59.014 [main] INFO  - 
+09:04:34.952 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/QE_Gladys-Cindana-Asri-Pardosi/17-BDD-Cucumber/PRAKTIKUM/Qcintacucumber/src/test/resources/features/people/search.feature
+09:04:34.958 [main] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
@@ -506,7 +506,7 @@ click clear history button
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mAlert displayed and click clear history button&amp#27;[0m &amp#27;[90m# starter.people.searchStep.alertDisplayedAndClickClearHistoryButton()&amp#27;[0m
 get a button without no history
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI see button search without no history&amp#27;[0m        &amp#27;[90m# starter.people.searchStep.iSeeButtonSearchWithoutNoHistory()&amp#27;[0m
-17:13:59.054 [main] INFO  - 
+09:04:34.996 [main] INFO  - 
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
@@ -516,11 +516,11 @@ Success clear history
 ----------------------------------------------------------------------
 ]]></system-out>
   </testcase>
-  <testcase name="Success display list of username that contains to our search" classname="Search" time="0.072">
+  <testcase name="Success display list of username that contains to our search" classname="Search" time="0.067">
     <system-out><![CDATA[
 Scenario: Success display list of username that contains to our search &amp#27;[90m# src/test/resources/features/people/search.feature:19&amp#27;[0m
-17:13:59.062 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/QE_Gladys-Cindana-Asri-Pardosi/17-BDD-Cucumber/PRAKTIKUM/Qcintacucumber/src/test/resources/features/people/search.feature
-17:13:59.070 [main] INFO  - 
+09:04:35.014 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/QE_Gladys-Cindana-Asri-Pardosi/17-BDD-Cucumber/PRAKTIKUM/Qcintacucumber/src/test/resources/features/people/search.feature
+09:04:35.020 [main] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
@@ -536,7 +536,7 @@ tab enter
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mtap enter&amp#27;[0m                                                        &amp#27;[90m# starter.people.searchStep.tapEnter()&amp#27;[0m
 get list of username that contains to search
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI will get list of username that contains to my search&amp#27;[0m          &amp#27;[90m# starter.people.searchStep.iWillGetListOfUsernameThatContainsToMySearch()&amp#27;[0m
-17:13:59.118 [main] INFO  - 
+09:04:35.063 [main] INFO  - 
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |

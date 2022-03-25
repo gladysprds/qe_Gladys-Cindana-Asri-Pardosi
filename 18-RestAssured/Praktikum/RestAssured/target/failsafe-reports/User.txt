@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: User
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 1, Skipped: 0, Time elapsed: 16.257 s <<< FAILURE! - in User
+User.POST - As a user I have to be able to generate token  Time elapsed: 1.211 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path result doesn't match.
+Expected: User authorized successfully.
+  Actual: User authorization failed.
+
+
+User.GET - As a user I have to be able to get detail user  Time elapsed: 0.098 s  <<< ERROR!
+java.lang.NullPointerException: Header value
+
+User.POST - As a user I input input invalid Token  Time elapsed: 0.917 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <400>.
+
+

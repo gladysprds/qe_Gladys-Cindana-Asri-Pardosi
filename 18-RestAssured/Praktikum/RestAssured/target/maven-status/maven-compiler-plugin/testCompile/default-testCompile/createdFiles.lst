@@ -1,4 +1,5 @@
 starter\user\Post.class
+starter\user\PostGenerateToken.class
 starter\user\Get.class
 starter\stepdefinitions\stepdefinition.class
 starter\cucumberTestSuite.class

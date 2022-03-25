@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="2" name="User" skipped="0" tests="6" time="15.7" timestamp="2022-03-25 11:51:47"><testcase name="POST - As an admin I have to be able to create new user"/><testcase name="POST - As a admin I cant create new user with invalid password"/><testcase name="POST - As an admin I cant create new user with exist account"/><testcase name="POST - As a user I have to be able to generate token"><failure message="1 expectation failed.&#10;JSON path result doesn't match.&#10;Expected: User authorized successfully.&#10;  Actual: User authorization failed.&#10;" type="java.lang.AssertionError">1 expectation failed.
+JSON path result doesn't match.
+Expected: User authorized successfully.
+  Actual: User authorization failed.
+</failure><system-err>1 expectation failed.
+JSON path result doesn't match.
+Expected: User authorized successfully.
+  Actual: User authorization failed.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)&#13;
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)&#13;
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)&#13;
+io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)&#13;
+io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)&#13;
+io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)&#13;
+RestAssured@1.0-SNAPSHOT/starter.user.PostGenerateToken.validateDataDetailGenerateToken(PostGenerateToken.java:38)&#13;
+RestAssured@1.0-SNAPSHOT/starter.stepdefinitions.stepdefinition.validateTheDataDetailAfterGenerateToken(stepdefinition.java:106)&#13;
+✽.validate the data detail after generate token(file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/New%20folder/RestAssured/src/test/resources/features/user/account.feature:33)&#13;
+</system-err></testcase><testcase name="GET - As a user I have to be able to get detail user"><error message="Header value" type="java.lang.NullPointerException">Header value</error><system-err>Header value&#13;
+com.google.common.base.Preconditions.checkNotNull(Preconditions.java:897)&#13;
+net.serenitybdd.rest.decorators.request.RequestSpecificationHeaderConfigurations.header(RequestSpecificationHeaderConfigurations.java:63)&#13;
+net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.header(RequestSpecificationDecorated.java:38)&#13;
+RestAssured@1.0-SNAPSHOT/starter.user.Get.requestGetDetailUser(Get.java:49)&#13;
+RestAssured@1.0-SNAPSHOT/starter.stepdefinitions.stepdefinition.iRequestGETDetailUser(stepdefinition.java:122)&#13;
+✽.I request GET detail user(file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/New%20folder/RestAssured/src/test/resources/features/user/account.feature:41)&#13;
+</system-err></testcase><testcase name="POST - As a user I input input invalid Token"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)&#13;
+io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)&#13;
+io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)&#13;
+io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)&#13;
+RestAssured@1.0-SNAPSHOT/starter.user.Get.validateStatusCode(Get.java:30)&#13;
+RestAssured@1.0-SNAPSHOT/starter.stepdefinitions.stepdefinition.iValidateTheStatusCodeInvalidGenerateTokenIs(stepdefinition.java:139)&#13;
+✽.I validate the status code invalid generate Token is 200(file:///D:/PERKULIAHAN/Semester%206,Hebatt%20glad!/Altera/New%20folder/RestAssured/src/test/resources/features/user/account.feature:49)&#13;
+</system-err></testcase></testsuite>

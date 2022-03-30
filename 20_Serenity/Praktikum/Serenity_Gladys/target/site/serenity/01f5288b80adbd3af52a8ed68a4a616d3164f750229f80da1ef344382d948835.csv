@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Login","As a user i have to be able to login","SUCCESS","2022-03-30T12:42:57.6716175+07:00[Asia/Jakarta]","0.0","51.48"
+"Login","As a user i cannot login with wrong username","SUCCESS","2022-03-30T12:43:51.1493844+07:00[Asia/Jakarta]","0.0","17.83"
+"Login","As a user i cannot login with wrong password","SUCCESS","2022-03-30T12:44:10.7921901+07:00[Asia/Jakarta]","0.0","16.8"
+"Login","As a user i cannot login with wrong password and wrong username","SUCCESS","2022-03-30T12:44:29.6531532+07:00[Asia/Jakarta]","0.0","17.1"
+"Login","As a user i cannot login with null password","SUCCESS","2022-03-30T12:44:47.8103158+07:00[Asia/Jakarta]","0.0","19.03"
+"Login","As a user i cannot login with null username","SUCCESS","2022-03-30T12:45:08.3601892+07:00[Asia/Jakarta]","0.0","16.29"

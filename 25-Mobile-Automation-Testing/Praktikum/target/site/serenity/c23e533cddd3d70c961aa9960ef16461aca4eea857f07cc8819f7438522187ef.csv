@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Calculator","As a User, I want add up 2 numbers","SUCCESS","2022-04-17T17:54:10.44745+07:00[Asia/Jakarta]","0.0","22.87"
+"Calculator","As a User, I want subtract 2 numbers","SUCCESS","2022-04-17T17:54:33.3380188+07:00[Asia/Jakarta]","0.0","18.81"
+"Calculator","As a User, I want to multiply 2 numbers","SUCCESS","2022-04-17T17:55:25.6641424+07:00[Asia/Jakarta]","0.0","18.92"

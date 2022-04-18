@@ -1,0 +1,5 @@
+test\alta\pageobject\BasePageObject.class
+CucumberTestSuite.class
+test\alta\hooks\BaseDriverHooks.class
+test\alta\pages\AddScreen.class
+test\alta\stepdefinitions\OperationSteps.class

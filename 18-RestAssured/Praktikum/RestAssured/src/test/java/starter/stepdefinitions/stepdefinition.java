@@ -139,9 +139,6 @@ public class stepdefinition{
         get.validateStatusCode(200);
     }
 
-
-
-
     @And("validate the data detail invalid token after generate")
     public void validateTheDataDetailInvalidTokenAfterGenerate() {
         get.validateInvalidGenerateToken();

@@ -1,0 +1,2 @@
+link Praktikum : 
+https://github.com/gladysprds/api-automationTest-cicd

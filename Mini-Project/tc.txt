@@ -1,0 +1,9 @@
+ketika kita ksongkan password,tapi nama dan email terisi,alert yang muncul 
+adalah email is required
+
+ketika kita ksongkan email ,nama dan password terisi,alert yang muncul 
+adalah password is required
+
+ketika nama kosong, 2 lainnya terisi  alert muncul adalah email is required
+
+
